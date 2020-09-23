@@ -1,0 +1,14 @@
+.l-header {
+  display: flex;
+  align-items: center; }
+
+.l-flex .search-form {
+  margin: 8px;
+  padding: 8px; }
+
+input.search-form-input {
+  background: #252830;
+  margin: 0px 0px 0px 16px;
+  padding: 1px 2px; }
+
+/*# sourceMappingURL=header.css.map */
