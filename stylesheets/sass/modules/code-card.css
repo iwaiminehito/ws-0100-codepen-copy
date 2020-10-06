@@ -1,0 +1,14 @@
+.code-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px; }
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between; }
+
+.code-card-title-text {
+  font-size: 13px;
+  margin: 0px 0px 0px 8px; }
+
+/*# sourceMappingURL=code-card.css.map */

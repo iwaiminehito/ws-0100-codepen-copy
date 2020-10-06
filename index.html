@@ -8,7 +8,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/text.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/sidebar-menu.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/badge.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/header.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/button.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/hero.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/modules/code-card.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/sass/layout.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/sass/theme.css">
+
 
     <!-- font-awesome -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -20,7 +26,7 @@
       <div class="l-sidebar sidebar">
         <!-- Write code for Sidebar-->
         <h1 class="codepen-logo">
-          CODE PEnnnnnnnnnnn
+          CODE PEN
           </h1>
           <div class="get-start">
             <p class="get-start-text">TRY OUR ONLINE EDITOR</p>
@@ -82,12 +88,171 @@
       </div>
       <main class="l-main">
       <header class="l-header">
-        <!-- Write code for Header-->
+        <div class="l-flex search-form">
+          <i class="fa fa-search">
+            ::before
+          </i>
+          <input class="search-form-input" type="text" placeholder="Search CodePen...">
+        </div>
+        <div class="l-flex header-buttons">
+          <a class="button button-primary">Sign up</a>
+          <a class="button button-secondary">Log In</a>
+        </div>
       </header>
       <div class="l-content">
         <section class="l-section">
           <div class="hero">
              <!-- Write code for Hero-->
+            <div class="hero-body">
+              <div class="hero-body-description">
+                <div class="hero-body-description-content">
+                  <div class="hero-logo">
+                    <i class="fa fa-cube">
+                      ::before
+                    </i>
+                  </div>
+                  <h1 class="hero-body-description-title">
+                    The best place to build, test, and discover front-end code.
+                  </h1>
+                  <p class="hero-body-description-text">
+                    "
+                    CodePen is a "
+                    <span class="text-bold">social development environment</span>" for front-end designers and developers. Build and deploy a website, show off your work, build test cases to learn and debug, and find inspiration.
+                    "
+                  </p>
+                </div>
+                <div class="hero-footer">
+                  <a class="button button-primary">Sign Up for Free</a>
+                </div>
+              </div>
+              <div class="hero-body-image">
+                <div class="hero-body-image-card">
+                  <div class="code-card code-card-html">
+                    <div class="l-flex l-align-center code-card-header">
+                      <div class="l-flex l-align-center code-card-title">
+                        <i class="fa fa-cog">
+                          ::before
+                        </i>
+                        <h4 class="code-card-title-text">
+                          "
+                          HTML
+                      "
+                        </h4>
+                      </div>
+
+                    </div>
+                    <div class="code-card-body">
+                      <p>
+                        <span class="hilight-orange"><di</span><span class="hilight-beige">class</span>"="
+                        <span class="hilight-green">"rect"</span>
+                        <span class="orange"></div></span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="code-card code-card-scss">
+                    <div class="l-flex l-align-center code-card-header">
+                      <div class="l-flex l-align-center code-card-title">
+                        <i class="fa fa-cog">
+                          ::before
+                        </i>
+                        <h4 class="code-card-title-text">
+                          "
+                          SCSS
+                      "
+                        </h4>
+                      </div>
+                      <i class="fa fa-chevron-down">
+                        ::before
+                      </i>
+                    </div>
+                    <div class="code-card-body">
+                      <p>
+                        <span class="hilight-beige">.rect</span>" {"
+                      </p>
+                      <p class="l-margin-left-2rem">
+                        <span class="hilight-purple">background</span>": "
+                        <span class="hilight-beige">linear-gradient</span>"(
+                          "
+                      </p>
+                      <p class="l-margin-left-4rem">
+                        <span class="hilight-orange">-119deg</span>",
+                        "
+                      </p>
+                      <p class="l-margin-left-4rem">
+                        <span class="hilight-beige">$grai</span>
+                        <span class="hilight-orange">0%</span>",
+                        "
+                      </p>
+                      <p class="l-margin-left-4rem"><span class="hilight-beige">$dark-gray</span>
+                        <span class="hilight-orange">100%</span>"); "
+                        <span class="cursor">|</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="code-card code-card-js">
+                    <div class="l-flex l-align-center code-card-header">
+                      <div class="l-flex l-align-center code-card-title">
+                        <i class="fa fa-cog">
+                          ::before
+                        </i>
+                        <h4 class="code-card-title-text">
+                          "
+                          JS
+                      "
+                        </h4>
+                      </div>
+                      <i class="fa fa-chevron-down">
+                        ::before
+                      </i>
+                    </div>
+                    <div class="code-card-body">
+                      <p>
+                      <span class="hilight-beige">
+                        var
+                      </span>
+                      <span class="hilight-blue">
+                        colors
+                      </span>" =
+                      "
+                    </p>
+                    <p>
+                      "
+                      ["
+                      <span class="hilight-green">
+                        "#74B087"
+                      </span>
+                      ","
+                      <span class="hilight-green">
+                        "#DE7300"
+                      </span>
+                      ","
+                      <span class="hilight-green">
+                        "#74B087"
+                      </span>
+                      "];
+                      "
+                    </p>
+                    <p>
+                      "
+                                             
+                      "
+                    </p>
+                    <p>
+                      <span class="hilight-beige">
+                        function
+                      </span>
+                      " "
+                      <span class="hilight-blue">
+                        animate
+                      </span>
+                      "() {};
+                      "
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
         </section>
