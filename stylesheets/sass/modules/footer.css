@@ -1,0 +1,10 @@
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: black; }
+
+.footer-links li {
+  margin-right: 1rem; }
+
+/*# sourceMappingURL=footer.css.map */
